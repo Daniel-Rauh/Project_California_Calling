@@ -315,7 +315,7 @@ body{
 .sponsor img{
     width: 80px;
 }
-.band{
+.bug{
     position: absolute;
     top: 2500px;
     left: -500px;
@@ -323,7 +323,7 @@ body{
     background: #fff;
     transform: rotate(50deg);
 }
-.band h1{
+.bug h1{
     font-family: 'LarishNeue';
     font-size: 7rem;
     color: #000;
