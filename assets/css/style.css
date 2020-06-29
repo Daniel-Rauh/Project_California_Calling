@@ -148,9 +148,10 @@ body{
 }
 #actions img:nth-of-type(6){
     right: 20%;
-    top: 235vh;
+    top: 250vh;
     width: 30%;
     max-width: 400px;
+    z-index: 2;
 }
 #golden{
     font-family: 'LarishNeue';
