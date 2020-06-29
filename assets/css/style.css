@@ -269,6 +269,8 @@ body{
     background: #000;
     color: #fff;
     padding: 20vh 7.5% 5vh;
+    position: relative;
+    overflow: hidden;
 }
 #join article:nth-of-type(1){
     width: 50%;
@@ -311,4 +313,35 @@ body{
 }
 .sponsor img{
     width: 80px;
+}
+.band{
+    position: absolute;
+    top: 2500px;
+    left: -500px;
+    width: 7000px;
+    background: #fff;
+    transform: rotate(50deg);
+}
+.band h1{
+    font-family: 'LarishNeue';
+    font-size: 7rem;
+    color: #000;
+    margin: 0;
+    transform: translateX(220px);
+    animation: text 35s infinite linear;
+}
+.white{
+    color: #fff;
+    -webkit-text-stroke: 1.5px #000;
+}
+@keyframes text {
+    0%  {
+        transform: translateX(220px);
+    }
+    50%{
+        transform: translateX(-4400px);
+    }
+    100% {
+        transform: translateX(220px);
+    }
 }
